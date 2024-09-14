@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+
+    background-color: gray;
+}
+
+.meme_slider {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.meme_slides {
+    display: flex;
+    width: 400%;
+}
+
+.slide {
+    width: 100%;
+}
+
+.meme_container {
+    display: flex;
+}
+
+.meme_img {
+    width: 100%;
+    border-radius: 4%;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.controls {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.control {
+    width: 1vh;
+    height: 1vh;
+    margin: 0 0.5vh;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
